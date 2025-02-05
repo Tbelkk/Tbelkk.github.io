@@ -1,0 +1,339 @@
+header a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  header a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  header a:hover{
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  footer a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .flex-container.img{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+  }
+
+ul{
+    list-style: none;
+}
+
+li.no-about{
+    display: inline-block;
+}
+
+header{
+    
+    background-color:black;
+    display: block;
+    text-align: center;
+    color: lightgray;
+    padding: 20px;
+    padding-bottom: 200px;
+}
+
+header h1{
+    padding: 15px;
+    font-size: 78.7px;
+}
+
+
+.nav-bar {
+    background: transparent;
+    padding: 10px 0;
+    border-bottom: solid 2px white;
+  }
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+  
+.container{
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    min-height: 1px;
+    padding-right: 350px;
+    padding-left: 15px;
+    padding: 14px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    max-width: 850px;
+    margin-bottom: 3.6rem;
+}
+
+@media screen and (max-width: 768px){
+    .flex-container {
+         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .profile-container {
+         flex-wrap: wrap;
+    }
+}
+
+section{
+    display: flex;
+    unicode-bidi: isolate;
+}
+
+.about-me{
+    background-color: #2b2b2b;
+}
+
+.top h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 100px;
+    size: 30px;
+    color: white;
+}
+
+.about-me p{
+    color: #888888;
+    font-family: "lora-regular", serif;
+    font-size: 20px;
+}
+
+.about-me h3{
+    color: white;
+}
+
+footer{
+    background-color: #2b2b2b;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+.contact-text{
+    padding-bottom: 25px;
+}
+
+.container{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0;             
+    margin: 0;                        
+    align-items: center; 
+}
+
+.profile{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    width: 150px;
+    height: 170px;
+    border: 20px solid black;
+    border-radius: 100px;
+}
+
+.skills{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.profile-container p{
+    align-self: center;
+}
+
+.progress-list {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    padding-top: 30px;
+  }
+
+  .progress-list li {
+    margin-bottom: 20px;
+  }
+
+  .progress-list label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .progress-container {
+    display: flex;
+    align-items: center;
+  }
+
+  progress {
+    width: 100%;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-right: 10px;
+  }
+
+  progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  progress::-webkit-progress-value {
+    background-color: #4285F4;
+    border-radius: 5px;
+  }
+
+  .progress-percentage {
+    min-width: 40px;
+    text-align: right;
+    font-weight: bold;
+  }
+
+.profile-btn{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+
+}
+
+.aBtn {
+    display: inline-block;
+    background-color: black; 
+    color: #fff;           
+    padding: 10px 20px;
+    text-decoration: none;  
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 140px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "lora-regular", serif;
+}
+
+.aBtn:hover{
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
+
+.progress-percentage{
+    color:white;
+}
+
+.progress-css{
+    color: white;
+}
+
+.projects{
+    text-align: center;
+}
+
+.project-square{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.projects-grid {
+    display: grid;
+    gap: 30px; 
+    margin-top: 20px;
+  }
+  
+  .project-square {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+  }
+  
+  .project-square:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-square h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .project-square a {
+    display: inline-block;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .project-square a:hover {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 15px;
+  }

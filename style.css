@@ -50,12 +50,14 @@ li.no-about{
 
 header{
     
-    background-color:black;
+    background-color:transparent;
+    background-image: url("Gemini_Generated_Image_gg5ei9gg5ei9gg5e.jpeg");
+    background-position: left 60%;
     display: block;
     text-align: center;
     color: lightgray;
     padding: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 400px;
 }
 
 header h1{
@@ -337,3 +339,6 @@ img{
     text-decoration: none;
     font-size: 15px;
   }
+
+
+

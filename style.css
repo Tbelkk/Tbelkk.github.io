@@ -1,3 +1,50 @@
+.project-one img{
+  width: 100%;
+  height: 40%;
+}
+
+.project-bot{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-bot p{
+  background-color: grey;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  padding:3px;
+  color:white;
+}
+
+.project-bot p:hover{
+  background-color: white;
+  color: black;
+  border-color: grey;
+}
+
+#name h1{
+  animation-duration: 2s;
+  animation-name: intro;
+}
+
+#name p{
+  animation-duration: 2s;
+  animation-name: intro;
+}
+
+@keyframes intro{
+  from{
+    opacity: 5%;
+    transform: translateY(-50px);
+  }
+  to{
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}
+
 header a:link {
     color: white;
     background-color: transparent;
@@ -32,12 +79,6 @@ header a:link {
     color: grey;
     background-color: transparent;
     text-decoration: none;
-  }
-
-  .flex-container.img{
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
   }
 
 ul{
@@ -83,6 +124,11 @@ header h1{
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.extra-container{
+    width: 85%;
+    max-width: 1200px;
 }
 
 .flex-container{
@@ -173,10 +219,10 @@ footer{
     padding-right: 20px;
 }
 
-img{
-    width: 150px;
-    height: 170px;
-    border: 20px solid black;
+.bio{
+    width: 170px;
+    height: 200px;
+    border: 5px solid black;
     border-radius: 100px;
 }
 
@@ -311,14 +357,42 @@ img{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     height: 200px;
-    width: 500px;
+    width: 400px;
   }
   
   .project-square:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
-  
+
+  .project-one:hover h3{
+    color: transparent;
+  }
+
+  .project-one:hover p{
+    color: transparent;
+  }
+
+  .project-one:hover .project-bot{
+    visibility: hidden;
+  }
+
+  .project-one:hover{
+    background-image: url("homepage.png");
+    background-size: 400px 200px;
+    animation-duration: 1s;
+    animation-name: projectAni;
+  }
+
+  @keyframes projectAni{
+    from{
+      opacity: 5%;
+    }
+    to{
+      opacity: 100%;
+    }
+  }
+
   .project-square h3 {
     margin-top: 0;
     font-size: 24px;
@@ -339,6 +413,29 @@ img{
     text-decoration: none;
     font-size: 15px;
   }
+
+  .proj a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .proj a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .extra-card{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    align-items: center;
+  }
+
 
 
 

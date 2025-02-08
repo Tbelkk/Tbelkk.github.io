@@ -391,7 +391,9 @@ progress::-webkit-progress-value {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   height: 200px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto; 
 }
 
 .project-square:hover {
@@ -701,4 +703,3 @@ body::after {
   background: radial-gradient(circle var(--size) at var(--x, 20%) var(--y, 20%), white, transparent 60%);
   transition: background 0.05s;
 }
-
